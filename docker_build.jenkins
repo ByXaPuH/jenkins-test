@@ -14,7 +14,7 @@ pipeline {
          steps {
             echo "=============== Building = started ================"
             dir('docker/toolbox') {
-              sh 'docker build . '
+              sh 'docker build -t test-build:latest. '
             }
          }
     }
