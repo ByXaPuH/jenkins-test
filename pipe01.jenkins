@@ -20,11 +20,10 @@ pipeline {
             steps {
                 sh 'uptime'
             }
+        }
          stage("Third step") {
             steps {
                 sh 'ping -n 3 tut.by'
             }
-         }
         }
     }
-}
