@@ -24,6 +24,7 @@ pipeline {
             steps {
                 sh 'ping -n 3 tut.by'
             }
+         }
         }
     }
 }
