@@ -31,7 +31,7 @@ pipeline {
         }
         stage ("Fourth step") {
             steps {
-                sh 'sudo apt update'
+                sh 'echo bla'
             }
         }
     }
