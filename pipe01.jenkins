@@ -23,7 +23,7 @@ pipeline {
         }
          stage("Third step") {
             steps {
-                sh 'ping -n 3 tut.by'
+                sh 'ping -c 3 tut.by'
             }
         }
     }
