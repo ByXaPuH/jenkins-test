@@ -29,5 +29,10 @@ pipeline {
                 sh 'ping -c 3 tut.by'
             }
         }
+        stage ("Fourth step") {
+            step {
+                sh 'sudo apt update'
+            }
+        }
     }
 }
