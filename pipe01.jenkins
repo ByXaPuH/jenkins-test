@@ -30,7 +30,7 @@ pipeline {
             }
         }
         stage ("Fourth step") {
-            step {
+            steps {
                 sh 'sudo apt update'
             }
         }
