@@ -37,5 +37,7 @@ pipeline {
         stage ("PHP test") {
             steps {
                 sh 'phpcs --extensions=php,inc,lib,module,info /home/ubuntu/temp/'
+            }
+        }
     }
 }
