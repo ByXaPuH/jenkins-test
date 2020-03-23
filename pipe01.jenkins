@@ -36,7 +36,7 @@ pipeline {
         }
         stage ("PHP test") {
             steps {
-                sh 'phpcs --extensions=php,inc,lib,module,info /home/ubuntu/temp/ > 1.txt'
+                sh 'sudo phpcs --extensions=php,inc,lib,module,info /home/ubuntu/temp/ > 1.txt'
             }
         }
     }
