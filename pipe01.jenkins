@@ -16,7 +16,6 @@ pipeline {
                 sh 'cat /etc/os-release'
                 sh 'tracepath tut.by'
                 sh 'w'
-                sh 'sleep 10'
             }
         }
         stage("Second step") {
