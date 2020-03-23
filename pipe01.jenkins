@@ -13,6 +13,7 @@ pipeline {
     stages {
         stage("First step") {
             steps {
+                sh 'pwd'
                 sh 'cat /etc/os-release'
                 sh 'tracepath tut.by'
                 sh 'w'
